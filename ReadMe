@@ -1,0 +1,12 @@
+Mycode.py performs statistical feature reduction.
+All features with title containing 'mean' or 'std' are selected for final Xtrain.
+Then, different ML models are applied to the obtained data.
+Uncommenting any model for clf variable will instantiate that model.
+Only one model must be uncommented at a time, else the latter model shall be implemented.
+
+koo.py performs PCA reduction.
+The data is reduced to 15 features.
+The double '##' commented part generates the graphs when uncommented.
+Then, different ML models are applied to the obtained data.
+Uncommenting any model for clf variable will instantiate that model.
+Only one model must be uncommented at a time, else the latter model shall be implemented.
